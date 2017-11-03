@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SelectBuildingView">
+            <rect key="frame" x="0.0" y="0.0" width="433" height="227"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_btntect_ip" translatesAutoresizingMaskIntoConstraints="NO" id="dBp-T6-4li">
+                    <rect key="frame" x="0.0" y="0.0" width="323" height="188"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xz_Parking-lot.png" translatesAutoresizingMaskIntoConstraints="NO" id="e0F-hL-EXW">
+                    <rect key="frame" x="49" y="29" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="车位" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhj-Q0-pYS">
+                    <rect key="frame" x="83" y="29" width="36" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xz_number_people.png" translatesAutoresizingMaskIntoConstraints="NO" id="L3h-D6-sAX">
+                    <rect key="frame" x="49" y="66" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="人员" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BcT-Ta-7ZB">
+                    <rect key="frame" x="83" y="66" width="36" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xm_fault.png" translatesAutoresizingMaskIntoConstraints="NO" id="y6f-AK-Nol">
+                    <rect key="frame" x="49" y="107" width="16" height="15"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="设备" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ERw-w4-Utv">
+                    <rect key="frame" x="83" y="105" width="36" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xm_voltage.png" translatesAutoresizingMaskIntoConstraints="NO" id="6zJ-dC-Wsd">
+                    <rect key="frame" x="50" y="155" width="16" height="15"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="耗电" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GcH-y5-YwL">
+                    <rect key="frame" x="83" y="154" width="36" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="17/35" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rPR-Ee-arU">
+                    <rect key="frame" x="267" y="29" width="42" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="11/35" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oR7-v2-xfo">
+                    <rect key="frame" x="267" y="65" width="42" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6/35" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u37-VZ-7bF">
+                    <rect key="frame" x="259" y="105" width="58" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2980KW/3000KW" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qqz-93-gjP">
+                    <rect key="frame" x="214" y="144" width="109" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xz_progress_all.png" translatesAutoresizingMaskIntoConstraints="NO" id="stT-Yo-x6O">
+                    <rect key="frame" x="135" y="71" width="124" height="4"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xz_progress_all.png" translatesAutoresizingMaskIntoConstraints="NO" id="UKz-Tc-dh5">
+                    <rect key="frame" x="127" y="110" width="124" height="4"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xz_progress_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="CTo-dq-AA6">
+                    <rect key="frame" x="127" y="66" width="50" height="15"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xz_progress_red.png" translatesAutoresizingMaskIntoConstraints="NO" id="oUn-KS-m4K">
+                    <rect key="frame" x="133" y="105" width="34" height="15"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xz_load_all.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Q5-tP-VhA">
+                    <rect key="frame" x="135" y="165" width="173" height="6"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xz_progress_yellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="yk2-Ej-oqt">
+                    <rect key="frame" x="127" y="160" width="190" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xz_box_leader.png" translatesAutoresizingMaskIntoConstraints="NO" id="4LQ-Md-pJT">
+                    <rect key="frame" x="49" y="20" width="7" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="项目信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNp-dt-VEQ">
+                    <rect key="frame" x="64" y="20" width="112" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4栋建筑/3000平方米                          集合式商业中心" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iEu-rd-hVz">
+                    <rect key="frame" x="64" y="48" width="245" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xz_box_leader.png" translatesAutoresizingMaskIntoConstraints="NO" id="fD8-jS-gwo">
+                    <rect key="frame" x="49" y="123" width="7" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="所属物业公司" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Koy-p9-Zw5">
+                    <rect key="frame" x="64" y="123" width="112" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="浦江集团" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYW-8E-zr3">
+                    <rect key="frame" x="64" y="151" width="245" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="20000" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVo-Ao-PIR">
+                    <rect key="frame" x="0.0" y="0.0" width="56" height="87"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </button>
+                <button opaque="NO" tag="20001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csq-FW-Y9S">
+                    <rect key="frame" x="0.0" y="109" width="56" height="79"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xz_progress_all.png" translatesAutoresizingMaskIntoConstraints="NO" id="oZM-7D-rfx">
+                    <rect key="frame" x="135" y="34" width="124" height="4"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xz_progress_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="UY2-tK-U8k">
+                    <rect key="frame" x="127" y="29" width="77" height="15"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xian" translatesAutoresizingMaskIntoConstraints="NO" id="gqF-qb-aq8">
+                    <rect key="frame" x="317" y="118" width="41" height="42"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="datubiao-shangye" translatesAutoresizingMaskIntoConstraints="NO" id="kli-z8-ceM">
+                    <rect key="frame" x="347" y="151" width="37" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" tag="20002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R68-M2-ZGu">
+                    <rect key="frame" x="251" y="196" width="72" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="jinru"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bgImageView" destination="dBp-T6-4li" id="dCk-5N-X2e"/>
+                <outlet property="buleImg1" destination="4LQ-Md-pJT" id="XcQ-kE-Tel"/>
+                <outlet property="buleImg2" destination="fD8-jS-gwo" id="dCW-Q7-wc9"/>
+                <outlet property="cheweiBGImg" destination="oZM-7D-rfx" id="JGs-4H-gsR"/>
+                <outlet property="cheweiImg" destination="e0F-hL-EXW" id="Ozy-2X-ebc"/>
+                <outlet property="cheweiLabel" destination="fhj-Q0-pYS" id="amV-P2-nXE"/>
+                <outlet property="cheweiNumImg" destination="UY2-tK-U8k" id="BGy-bj-HZp"/>
+                <outlet property="cheweiNumLabel" destination="rPR-Ee-arU" id="2Kz-HY-sUG"/>
+                <outlet property="fzxxBtn" destination="csq-FW-Y9S" id="MsG-fZ-G0Z"/>
+                <outlet property="haodianBGImg" destination="2Q5-tP-VhA" id="xqW-Gp-aKG"/>
+                <outlet property="haodianImg" destination="6zJ-dC-Wsd" id="Q0p-UC-kph"/>
+                <outlet property="haodianLabel" destination="GcH-y5-YwL" id="dN9-v5-GjA"/>
+                <outlet property="haodianNumImg" destination="yk2-Ej-oqt" id="GQi-bD-3JK"/>
+                <outlet property="haodianNumLabel" destination="qqz-93-gjP" id="KlD-a6-GIN"/>
+                <outlet property="renyuanBGImg" destination="stT-Yo-x6O" id="HE6-AH-gSd"/>
+                <outlet property="renyuanImg" destination="L3h-D6-sAX" id="EeD-ie-2Fh"/>
+                <outlet property="renyuanLabel" destination="BcT-Ta-7ZB" id="9Jm-Pd-QXS"/>
+                <outlet property="renyuanNumImg" destination="CTo-dq-AA6" id="5Bq-wJ-4G2"/>
+                <outlet property="renyuanNumLabel" destination="oR7-v2-xfo" id="kEF-8J-lPC"/>
+                <outlet property="shebeiBGImg" destination="UKz-Tc-dh5" id="MsR-CD-36r"/>
+                <outlet property="shebeiImg" destination="y6f-AK-Nol" id="3Uo-op-ynK"/>
+                <outlet property="shebeiLabel" destination="ERw-w4-Utv" id="Phu-sZ-6xa"/>
+                <outlet property="shebeiNumImg" destination="oUn-KS-m4K" id="Pm3-Xl-hye"/>
+                <outlet property="shebeiNumLabel" destination="u37-VZ-7bF" id="Mgg-ck-VlE"/>
+                <outlet property="ssxxBtn" destination="cVo-Ao-PIR" id="V9d-RM-7pl"/>
+                <outlet property="viewChangeBtn" destination="R68-M2-ZGu" id="gny-bv-CAf"/>
+                <outlet property="wygsLabel" destination="Koy-p9-Zw5" id="PNM-2X-IdT"/>
+                <outlet property="wygsTextLabel" destination="kYW-8E-zr3" id="XHu-5w-CNE"/>
+                <outlet property="xxxxLabel" destination="LNp-dt-VEQ" id="nWG-IS-qKt"/>
+                <outlet property="xxxxTextLabel" destination="iEu-rd-hVz" id="vgo-vN-Mpk"/>
+            </connections>
+            <point key="canvasLocation" x="-1576.5" y="-922.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_btntect_ip" width="271" height="135"/>
+        <image name="datubiao-shangye" width="44" height="60"/>
+        <image name="jinru" width="72" height="29"/>
+        <image name="xian" width="46" height="46"/>
+        <image name="xm_fault.png" width="14" height="13"/>
+        <image name="xm_voltage.png" width="10" height="14"/>
+        <image name="xz_Parking-lot.png" width="17" height="12"/>
+        <image name="xz_box_leader.png" width="6" height="20"/>
+        <image name="xz_load_all.png" width="191" height="8"/>
+        <image name="xz_number_people.png" width="14" height="16"/>
+        <image name="xz_progress_all.png" width="127" height="6"/>
+        <image name="xz_progress_green.png" width="142" height="22"/>
+        <image name="xz_progress_red.png" width="142" height="22"/>
+        <image name="xz_progress_yellow.png" width="143" height="22"/>
+    </resources>
+</document>
